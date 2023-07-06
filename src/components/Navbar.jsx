@@ -9,7 +9,7 @@ import {MdFavorite, MdHelp} from 'react-icons/md'
 const Navbar = () => {
     const [nav, setNav] = useState(false)
   return (
-    <div className='max-w-[1640px] mx-auto flex justify-between items-center p-4'>
+    <div className='max-w-[1560px] mx-auto flex justify-between items-center p-4'>
         {/* l side */}
         <div className='flex items-center'>
             <div onClick={() => setNav(!nav)} className='cursor-pointer'>
